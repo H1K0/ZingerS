@@ -185,7 +185,7 @@ footer{
 	box-shadow: 0 0 20px rgba(0,0,0,.8);
 	flex-shrink: 0;
 	cursor: default;
-	transition: 0.1s;
+	transition: .1s;
 	z-index: 54;
 }
 footer:hover{background-color: rgba(0,0,0,.8)}
