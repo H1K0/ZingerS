@@ -123,14 +123,12 @@ nav:hover{background-color: rgba(0,0,0,.8)}
 	color: white;
 }
 .section{
-	/*padding: 5px 20px;*/
-	display: flex;
-	align-items: center;
 	height: 60vh;
 	overflow-x: scroll;
 	border: 1px solid white;
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
+	font-size: 0;
 }
 .section::-webkit-scrollbar{width: 15px}
 h1{
@@ -154,7 +152,7 @@ p a{color: #aaf}
 p a:hover{color: #ccf}
 .yndxmusic{
 	width: 100%;
-	height: 50vh;
+	height: 25vw;
 }
 .network-links-box{
 	margin-top: 50px;

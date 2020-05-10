@@ -1,5 +1,8 @@
 .music-card{
+	display: inline-block;
+	vertical-align: top;
 	margin: 0 2vw;
+	margin-top: calc(5vh - 7.5px);
 	height: 50vh;
 	width: 50vh;
 	border-radius: 10px;
@@ -11,6 +14,7 @@
 .music-card:hover{
 	border: 2px solid #ccc;
 	margin: 0 calc(2vw - 2px);
+	margin-top: calc(5vh - 7.5px - 2px);
 }
 .music-card a{text-decoration: none}
 .music-card__wrap{
