@@ -1,0 +1,39 @@
+.gallery{
+	width: 100%;
+	padding: 10vh 5vw;
+	box-sizing: border-box;
+	background-color: #222;
+	color: #eee;
+	box-shadow: 0 0 10vh black;
+}
+.gallery h2{
+	margin-right: 0;
+	margin-left: 0;
+	padding: 1vh 4vw;
+	padding-bottom: 2vh;
+	border-bottom: 1vh solid #eee;
+}
+.album{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 2vh;
+	padding-bottom: 5vh;
+	border-bottom: 1vh solid #eee;
+	box-sizing: border-box;
+}
+.album a{
+	display: block;
+	height: 36vh;
+	margin-top: 5vh;
+	transition: .2s;
+}
+.album a:hover{height: 40vh}
+.album img{
+	height: 100%;
+	border: 5px solid #888;
+	box-sizing: border-box;
+	box-shadow: 0 0 25px black;
+}
