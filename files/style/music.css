@@ -42,7 +42,7 @@ header strong{font-size: 44pt}
 	border: 5px solid #aaa;
 	box-shadow: 0 0 20px black;
 }
-h1,h2,p{cursor: default}
+h1,h2,p,table *{cursor: default}
 h1{
 	text-transform: uppercase;
 	text-align: center;
@@ -71,7 +71,25 @@ p{margin: 1vh 0}
 	font-style: italic;
 	text-decoration: underline;
 }
-.lyrics p{padding-left: 1vw}
+.lyrics table{border-collapse: collapse}
+.lyrics tr{
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+.lyrics tr:hover{
+	background-color: #eef;
+	border: 2px solid #bbc;
+}
+.lyrics th,td{
+	width: 40%;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.lyrics th{
+	text-align: left;
+}
+.lyrics h2{padding-left: 1vw}
 .vocal-h1k0{color: red}
 .vocal-kickreprod{color: blue}
 .vocal-together{color: purple}
