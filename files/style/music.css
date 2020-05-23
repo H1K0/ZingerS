@@ -71,7 +71,10 @@ p{margin: 1vh 0}
 	font-style: italic;
 	text-decoration: underline;
 }
-.lyrics table{border-collapse: collapse}
+.lyrics table{
+	width: 100%;
+	border-collapse: collapse;
+}
 .lyrics tr{
 	display: flex;
 	justify-content: space-between;
