@@ -33,6 +33,7 @@ header{
 	top: calc(15vw - .5vw);
 	left: 5vw;
 	width: 90vw;
+	filter: drop-shadow(.6vw .6vw .25vw #060606);
 	animation: float 3s linear infinite;
 }
 @keyframes float{
