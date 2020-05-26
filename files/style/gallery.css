@@ -26,11 +26,11 @@
 }
 .album a{
 	display: block;
-	height: 36vh;
+	height: 33vh;
 	margin-top: 5vh;
 	transition: .2s;
 }
-.album a:hover{height: 40vh}
+.album a:hover{height: 36vh}
 .album img{
 	height: 100%;
 	border: 5px solid #888;
