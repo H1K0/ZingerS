@@ -1,0 +1,19 @@
+User-agent: *
+Allow: *
+Disallow: /files/json/*
+Disallow: /files/style/*
+Disallow: /files/scripts/*
+Disallow: /404.html
+Disallow: /feed.rss
+
+User-agent: Yandex
+Allow: /feed.rss
+Allow: /files/style/*
+Allow: /files/scripts/*.js
+
+User-agent: GoogleBot
+Allow: /files/style/*
+Allow: /files/scripts/*.js
+
+
+Host: http://xingers.xyz
