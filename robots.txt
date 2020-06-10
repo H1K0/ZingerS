@@ -16,4 +16,5 @@ Allow: /files/style/*
 Allow: /files/scripts/*.js
 
 
+Sitemap: http://zingers.xyz/sitemap.xml
 Host: http://xingers.xyz
